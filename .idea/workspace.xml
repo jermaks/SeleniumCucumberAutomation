@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50126346-fabc-4265-a950-48069eeb9c05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/hybrisProjectSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/constants/componentsconstants/Components.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/constants/componentsconstants/Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/constants/pageconstants/CartConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/constants/pageconstants/MainPageConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/entities/models/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/pages/cartpage/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/pages/mainpage/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/predictions/PurchasePreconditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/utils/helpers/TestHelperExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/utils/helpers/resthelpers/RestHelperExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/RestBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/products/TestProductListCheckBoxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/purchases/TestAddToCartAndDeclided.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/purchases/TestAddToCartAndPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/FirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/page_sample/user_story_1_pages/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/runners/CucumberRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/step_definitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/step_definitions/user_story_1_steps/UserStory1Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/app/app01.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/app/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/user_story_example/UserStory1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/report/run_report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/run-tests/JenkinsFile.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/run-tests/run-main.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/run-tests/run-release.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testsuites/REGRESSION.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testsuites/SMOKE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/upload/file_to_upload.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2er1fUYUFkRzn8oUzdd0opqxaHA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.FirstTest.openBrowser.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.appearance",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FirstTest.openBrowser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumCucumberAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.FirstTest" />
+      <option name="METHOD_NAME" value="openBrowser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FirstTest.openBrowser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50126346-fabc-4265-a950-48069eeb9c05" name="Changes" comment="" />
+      <created>1712647985241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712647985241</updated>
+      <workItem from="1712647986454" duration="4475000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
