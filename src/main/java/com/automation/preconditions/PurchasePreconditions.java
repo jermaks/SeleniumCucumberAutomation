@@ -1,4 +1,4 @@
-package com.automation.predictions;
+package com.automation.preconditions;
 
 public class PurchasePreconditions {
 }

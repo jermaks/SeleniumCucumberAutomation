@@ -4,9 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50126346-fabc-4265-a950-48069eeb9c05" name="Changes" comment="project tree">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/FirstTest.java" afterDir="false" />
+    <list default="true" id="50126346-fabc-4265-a950-48069eeb9c05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/hybrisProjectSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/constants/componentsconstants/Components.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/constants/componentsconstants/Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/constants/pageconstants/CartConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/constants/pageconstants/MainPageConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/entities/models/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/pages/cartpage/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/pages/mainpage/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/predictions/PurchasePreconditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/utils/helpers/TestHelperExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/utils/helpers/resthelpers/RestHelperExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/RestBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/products/TestProductListCheckBoxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/purchases/TestAddToCartAndDeclided.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/purchases/TestAddToCartAndPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/FirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/page_sample/user_story_1_pages/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/runners/CucumberRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/step_definitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/step_definitions/user_story_1_steps/UserStory1Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/app/app01.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/app/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/user_story_example/UserStory1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/report/run_report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/run-tests/JenkinsFile.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/run-tests/run-main.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/run-tests/run-release.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testsuites/REGRESSION.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testsuites/SMOKE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/upload/file_to_upload.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,24 +122,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712647985241</updated>
-      <workItem from="1712647986454" duration="5063000" />
+      <workItem from="1712647986454" duration="4475000" />
     </task>
-    <task id="LOCAL-00001" summary="project tree">
-      <option name="closed" value="true" />
-      <created>1712656834907</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1712656834907</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="project tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="project tree" />
   </component>
 </project>
