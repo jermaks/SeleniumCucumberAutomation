@@ -4,49 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50126346-fabc-4265-a950-48069eeb9c05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/hybrisProjectSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/constants/componentsconstants/Components.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/constants/componentsconstants/Groups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/constants/pageconstants/CartConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/constants/pageconstants/MainPageConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/entities/models/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/pages/cartpage/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/pages/mainpage/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/predictions/PurchasePreconditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/utils/helpers/TestHelperExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/utils/helpers/resthelpers/RestHelperExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/RestBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/products/TestProductListCheckBoxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/purchases/TestAddToCartAndDeclided.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/purchases/TestAddToCartAndPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/FirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/page_sample/user_story_1_pages/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/runners/CucumberRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/step_definitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/step_definitions/user_story_1_steps/UserStory1Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config/app/app01.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config/app/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/user_story_example/UserStory1.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/report/run_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/run-tests/JenkinsFile.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/run-tests/run-main.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/run-tests/run-release.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testsuites/REGRESSION.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testsuites/SMOKE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/upload/file_to_upload.pdf" afterDir="false" />
+    <list default="true" id="50126346-fabc-4265-a950-48069eeb9c05" name="Changes" comment="updated first test - HEADLESS">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,31 +21,35 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2er1fUYUFkRzn8oUzdd0opqxaHA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.FirstTest.openBrowser.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.appearance",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.FirstTest.openBrowser.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
@@ -124,9 +88,22 @@
       <updated>1712647985241</updated>
       <workItem from="1712647986454" duration="4475000" />
     </task>
+    <task id="LOCAL-00001" summary="updated first test - HEADLESS">
+      <option name="closed" value="true" />
+      <created>1712824831315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712824831315</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated first test - HEADLESS" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated first test - HEADLESS" />
   </component>
 </project>
