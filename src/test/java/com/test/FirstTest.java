@@ -19,6 +19,7 @@ public class FirstTest {
         driver.get("https://www.google.com");
         System.out.println("Title of the page is: " + driver.getTitle());
         Assert.assertEquals("Page title is not correct", "Google", driver.getTitle());
+
     }
 
 }
