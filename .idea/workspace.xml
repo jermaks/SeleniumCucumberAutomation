@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50126346-fabc-4265-a950-48069eeb9c05" name="Changes" comment="pom.xml - surefire plugin added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/test/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/FirstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712647985241</updated>
       <workItem from="1712647986454" duration="4475000" />
-      <workItem from="1713791891744" duration="425000" />
+      <workItem from="1713791891744" duration="1069000" />
     </task>
     <task id="LOCAL-00001" summary="updated first test - HEADLESS">
       <option name="closed" value="true" />
@@ -133,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713791965531</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="pom.xml - surefire plugin added">
+      <option name="closed" value="true" />
+      <created>1713792391572</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713792391572</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

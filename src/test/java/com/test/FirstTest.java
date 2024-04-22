@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class FirstTest {
 
     @Test
-    public void OpenBrowser()  {
+    public void testOpenBrowser()  {
         WebDriver driver;
         System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
         ChromeOptions options = new ChromeOptions();
