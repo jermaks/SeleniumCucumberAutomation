@@ -1,4 +1,4 @@
-package com.test;
+package com.automation.modules.practice;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
