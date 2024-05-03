@@ -11,7 +11,7 @@ Todo:
 4. Implement Logger to be able to see in Console and Jenkins Console Output:
    a. rest request and responses;
    b. test steps (e.g. LOGGER.info("STEP 1: Get User List"));
-5. 
+5. Implement auto build in Jenkins when Push on Git.
 
 
 ---------------------------------------------------------------
