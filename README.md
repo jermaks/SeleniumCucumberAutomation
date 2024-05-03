@@ -1,3 +1,8 @@
+Rest Client:
+fasterxml jackson
+
+
+---------------------------------------------------------------
 sudo apt-get update
 
 sudo apt-get upgrade
@@ -40,4 +45,3 @@ sudo apt-get install fontconfig openjdk-17-jre
 
 sudo apt-get install jenkins
 
-Vot polnij spisok komand
