@@ -12,6 +12,7 @@ Todo:
    a. rest request and responses;
    b. test steps (e.g. LOGGER.info("STEP 1: Get User List"));
 5. Implement auto build in Jenkins when Push on Git.
+6. Implement Test Analytics.
 
 
 ---------------------------------------------------------------
