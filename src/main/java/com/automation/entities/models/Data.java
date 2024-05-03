@@ -2,7 +2,7 @@ package com.automation.entities.models;
 
 import org.junit.platform.commons.util.ToStringBuilder;
 
-public class DataModel {
+public class Data {
     private String id;
     private String email;
     private String first_name;

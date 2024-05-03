@@ -1,17 +1,19 @@
 package com.automation.modules.practice;
 
-import com.automation.entities.models.UserModel;
-import org.junit.jupiter.api.Assertions;
+import com.automation.entities.models.User;
+import com.automation.rest.UserContext;
 import org.junit.jupiter.api.Test;
 
-import static com.automation.rest.RestHelper.getJsonToUser;
+import static com.automation.constants.restconstants.UserConstants.UserFirstNames.JANET;
+import static com.automation.constants.restconstants.UserConstants.UserLastNames.WEAVER;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestFirstRest {
+public class TestFirstRest implements UserContext {
 
     @Test
     public void testFirstRestTest() {
-        UserModel user = getJsonToUser("2");
-        Assertions.assertEquals(user.getData().getFirst_name(), "Janet",
-                "First Name is not correct");
+        User user = getSingleUser("2");
+        assertEquals(JANET, user.getData().getFirst_name(), String.format("User First Name is not %s", JANET));
+        assertEquals(WEAVER, user.getData().getLast_name(), String.format("User First Name is not %s", WEAVER));
     }
 }

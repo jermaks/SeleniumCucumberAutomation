@@ -1,7 +1,6 @@
 package com.automation.constants.restconstants;
 
-public class RestConstants {
-
-    public static final String SINGLE_USER_URI = "https://reqres.in/api/users";
-
+public final class RestConstants {
+    public static final String REST_URL = "https://reqres.in";
+    public static final String USERS_URI = "/api/users";
 }

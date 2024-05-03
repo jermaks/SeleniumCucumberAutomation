@@ -2,7 +2,7 @@ package com.automation.entities.models;
 
 import org.junit.platform.commons.util.ToStringBuilder;
 
-public class SupportModel {
+public class Support {
     private String url;
     private String text;
 
