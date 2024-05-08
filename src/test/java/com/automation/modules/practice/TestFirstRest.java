@@ -15,8 +15,10 @@ public class TestFirstRest implements UserContext {
     public void testFirstRestTest() {
         LOGGER.info("Preconditions: Test test");
         User user = getSingleUser("2");
+
         LOGGER.info("Step 1: Check first name");
         assertEquals(JANET, user.getData().getFirst_name(), String.format("User First Name is not %s", JANET));
+
         LOGGER.info("Step 2: Check last name");
         assertEquals(WEAVER, user.getData().getLast_name(), String.format("User First Name is not %s", WEAVER));
     }
