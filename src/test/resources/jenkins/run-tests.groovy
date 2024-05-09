@@ -6,7 +6,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Test Echo!"
-                sh 'mvn clean test'
+                sh 'mvn test -PREGRESSION'
+                sh 'mvn test -PSMOKE'
             }
         }
     }

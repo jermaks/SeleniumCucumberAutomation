@@ -3,14 +3,12 @@
 <suite name="Practice Suite">
 
     <test name="Test1">
-
         <classes>
-<!--            <class name="com.test.TestFirst">-->
-<!--                <methods>-->
-<!--                    <include name="testOpenBrowser"/>-->
-<!--                </methods>-->
-<!--            </class>-->
+            <class name="com.automation.modules.practice.TestFirstRest">
+                <methods>
+                    <include name="testCheckFirstAndLastName"/>
+                </methods>
+            </class>
         </classes>
-
     </test>
 </suite>

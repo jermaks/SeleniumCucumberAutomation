@@ -8,14 +8,19 @@ Todo:
 1. Implement fasterxml jackson rest client (to see which is better, current rest client - jakarta).
 2. Add Users model and method(s) to enable retrieval of the User List.
 3. Add POST requests and related test(s).
-4. Implement auto build in Jenkins when Push on Git.
-5. Implement Test Analytics (Allure?).
-6. Try to use chain of responsibility pattern.
+4. Try to use softly assertions (AssertJ?) where needed.
+5. Implement auto build in Jenkins when Push on Git.
+6. Implement Test Analytics (Allure?).
+7. Try to use chain of responsibility pattern.
+8. Implement TestNg.
 
 Done:
 1. Implement Logger(SLF4J) to be able to see in Console and Jenkins Console Output:
    a. rest request and responses;
    b. test steps (e.g. LOGGER.info("STEP 1: Get User List"));
+2. Add @BeforeClass for preconditions.
+
+
 
 
 ---------------------------------------------------------------

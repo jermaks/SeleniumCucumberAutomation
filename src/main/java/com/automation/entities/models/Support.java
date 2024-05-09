@@ -1,6 +1,6 @@
 package com.automation.entities.models;
 
-import org.junit.platform.commons.util.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringBuilder;
 
 public class Support {
     private String url;
