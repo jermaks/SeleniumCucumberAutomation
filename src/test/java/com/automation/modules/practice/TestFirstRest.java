@@ -3,7 +3,6 @@ package com.automation.modules.practice;
 import com.automation.entities.models.User;
 import com.automation.rest.UserContext;
 import com.automation.utils.helpers.annotations.TestInfo;
-import org.assertj.core.api.SoftAssertions;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
