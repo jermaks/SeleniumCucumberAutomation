@@ -13,6 +13,7 @@ import static com.automation.constants.restconstants.UserConstants.UserFirstName
 import static com.automation.constants.restconstants.UserConstants.UserLastNames.WEAVER;
 import static com.automation.utils.helpers.logger.LoggerHelper.LOGGER;
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.SoftAssertions.assertSoftly;
 
 public class TestFirstRest implements UserContext {
 
@@ -41,7 +42,7 @@ public class TestFirstRest implements UserContext {
 
         //Soft assertion
         LOGGER.info("Step 3: Check last name and first name with soft assertions");
-        SoftAssertions.assertSoftly(softly -> {
+        assertSoftly(softly -> {
             softly.assertThat(user.getData().getFirst_name()).as("First Name").isEqualTo(JANET);
             softly.assertThat(user.getData().getLast_name()).as("Last Name").isEqualTo(WEAVER);
         });
