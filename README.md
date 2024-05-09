@@ -12,13 +12,17 @@ Todo:
 5. Implement auto build in Jenkins when Push on Git.
 6. Implement Test Analytics (Allure?).
 7. Try to use chain of responsibility pattern.
-8. Implement TestNg.
+8. 
+
 
 Done:
 1. Implement Logger(SLF4J) to be able to see in Console and Jenkins Console Output:
    a. rest request and responses;
    b. test steps (e.g. LOGGER.info("STEP 1: Get User List"));
 2. Add @BeforeClass for preconditions.
+3. Implement TestNg (JUnit temporary commented out due to conflict with TestNg).
+4. Added AssertJ.
+5. 
 
 
 
