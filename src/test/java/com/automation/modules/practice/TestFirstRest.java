@@ -3,6 +3,7 @@ package com.automation.modules.practice;
 import com.automation.entities.models.User;
 import com.automation.rest.UserContext;
 import com.automation.utils.helpers.annotations.TestInfo;
+import org.assertj.core.api.SoftAssertions;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -26,14 +27,23 @@ public class TestFirstRest implements UserContext {
     @Test(groups = {SMOKE})
     @TestInfo(testCaseId = "JIRA-223344", component = REST)
     public void testCheckFirstAndLastName() {
-        LOGGER.info("Step 1: Check first name");
+        LOGGER.info("Step 1: Check first name with two fail message options");
+        //Assertion with .as()
+        assertThat(user.getData().getFirst_name()).as("First Name").isEqualTo(JANET);
+
+        //Assertion with .withFailMessage()
         assertThat(user.getData().getFirst_name())
                 .withFailMessage(String.format("User First Name is not %s", JANET))
                 .isEqualTo(JANET);
 
         LOGGER.info("Step 2: Check last name");
-        assertThat(user.getData().getLast_name())
-                .withFailMessage(String.format("User First Name is not %s", WEAVER))
-                .isEqualTo(WEAVER);
+        assertThat(user.getData().getLast_name()).as("Last Name").isEqualTo(WEAVER);
+
+        //Soft assertion
+        LOGGER.info("Step 3: Check last name and first name with soft assertions");
+        SoftAssertions.assertSoftly(softly -> {
+            softly.assertThat(user.getData().getFirst_name()).as("First Name").isEqualTo(JANET);
+            softly.assertThat(user.getData().getLast_name()).as("Last Name").isEqualTo(WEAVER);
+        });
     }
 }
