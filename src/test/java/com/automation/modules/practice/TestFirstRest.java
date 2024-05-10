@@ -2,12 +2,8 @@ package com.automation.modules.practice;
 
 import com.automation.entities.models.User;
 import com.automation.rest.UserContext;
-import com.automation.utils.helpers.annotations.TestInfo;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 
-import static com.automation.constants.componentsconstants.Components.REST;
-import static com.automation.constants.componentsconstants.Groups.SMOKE;
 import static com.automation.constants.restconstants.UserConstants.UserFirstNames.JANET;
 import static com.automation.constants.restconstants.UserConstants.UserLastNames.WEAVER;
 import static com.automation.utils.helpers.logger.LoggerHelper.LOGGER;
@@ -18,15 +14,11 @@ public class TestFirstRest implements UserContext {
 
     private User user;
 
-    @BeforeClass(groups = {SMOKE}, alwaysRun = true)
-    public void createPreconditions() {
+    @Test
+    public void testCheckFirstAndLastName() {
         LOGGER.info("Preconditions: Test test");
         user = getSingleUser("2");
-    }
 
-    @Test(groups = {SMOKE})
-    @TestInfo(testCaseId = "JIRA-223344", component = REST)
-    public void testCheckFirstAndLastName() {
         LOGGER.info("Step 1: Check first name with two fail message options");
         //Assertion with .as()
         assertThat(user.getData().getFirst_name()).as("First Name").isEqualTo(JANET);

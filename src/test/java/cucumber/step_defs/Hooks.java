@@ -1,22 +1,22 @@
-//package cucumber.stepDefinitions;
-//
-//import io.cucumber.java.After;
-//import io.cucumber.java.Before;
-//import io.cucumber.java.Scenario;
-//import org.openqa.selenium.OutputType;
-//import org.openqa.selenium.TakesScreenshot;
-//import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.WebDriverException;
-//import org.openqa.selenium.chrome.ChromeDriver;
-//import org.openqa.selenium.chrome.ChromeOptions;
-//
-//import java.io.File;
-//
-//public class Hooks {
-//    public Hooks() {
-//        super();
-//    }
-//
+package cucumber.step_defs;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import java.io.File;
+
+public class Hooks {
+    public Hooks() {
+        super();
+    }
+
 //    public static WebDriver driver;
 //    static String libWithDriversLocation = System.getProperty("user.dir") + File.separator + "lib" + File.separator;
 //
@@ -46,6 +46,6 @@
 //        }
 //        driver.quit();
 //    }
-//
-//}
-//
+
+}
+
