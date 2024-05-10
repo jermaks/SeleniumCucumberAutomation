@@ -14,7 +14,7 @@ pipeline {
 //    gitParameter branchFilter: 'origin/(.*)', defaultValue: 'master', name: 'BRANCH', type: 'PT_BRANCH'
     agent any
     stages {
-        stage('Build') {
+        stage('Test run') {
             steps {
 //                echo "Test Echo!${params.branchName}"
                 echo "Test Echo!"
