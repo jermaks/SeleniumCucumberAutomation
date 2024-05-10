@@ -9,6 +9,11 @@
                     <include name="testCheckFirstAndLastName"/>
                 </methods>
             </class>
+            <class name="com.automation.modules.practice.TestRestAssured">
+                <methods>
+                    <include name="testRestAssured"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
