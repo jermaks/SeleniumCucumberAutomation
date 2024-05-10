@@ -11,9 +11,10 @@ pipeline {
             name: 'branchName',
             choices: ['master', 'cucumber'])
     }
-    agent any
-    node {
-        git branch: "${params.branchName}", url: 'https://github.com/jermaks/SeleniumCucumberAutomation.git/'
+    agent {
+        node {
+            git branch: "${params.branchName}", url: 'https://github.com/jermaks/SeleniumCucumberAutomation.git/'
+        }
     }
     stages {
         stage('Build') {
