@@ -3,13 +3,13 @@ package jenkins
 import groovy.transform.Field
 
 @Field
-def String branch = 'master'
+def String branchName = 'master'
 
 pipeline {
     parameters {
         choice(
-            name: 'branch',
-            choices: ['master', 'cucumber', 'both'])
+            name: 'branchName',
+            choices: ['master', 'cucumber'])
     }
     agent any
     stages {
