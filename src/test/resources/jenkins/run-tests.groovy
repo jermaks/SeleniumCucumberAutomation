@@ -18,7 +18,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Test Echo!"
+                echo "Test Echo! Branch Name Choice = ${params.branchName}"
                 sh 'mvn clean test'
             }
         }
