@@ -16,7 +16,7 @@ pipeline {
         stage('Scm checkout') {
             steps {
                 echo "Pulling changes from branch - ${params.branch}"
-                node {
+                script {
                     git url: 'https://github.com/jermaks/SeleniumCucumberAutomation.git/', branch: "${params.branch}"
                 }
             }
