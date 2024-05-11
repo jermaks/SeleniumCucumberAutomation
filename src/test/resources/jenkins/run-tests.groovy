@@ -9,7 +9,9 @@ pipeline {
     parameters {
         choice(
             name: 'branch',
-            choices: ['master', 'cucumber'])
+            choices: ['master', 'cucumber'],
+            description: 'master: testng; cucumber: junit, cucumber'
+        )
     }
     agent any
     stages {
