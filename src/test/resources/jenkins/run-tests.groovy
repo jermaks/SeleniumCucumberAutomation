@@ -6,17 +6,16 @@ import groovy.transform.Field
 def String branchName = 'master'
 
 pipeline {
-//    parameters {
-//        choice(
-//            name: 'branchName',
-//            choices: ['master', 'cucumber'])
-//    }
-//    gitParameter branchFilter: 'origin/(.*)', defaultValue: 'master', name: 'BRANCH', type: 'PT_BRANCH'
+    parameters {
+        choice(
+            name: 'branchName',
+            choices: ['master', 'cucumber'])
+    }
     agent any
     stages {
         stage('Build') {
             steps {
-//                echo "Test Echo!${params.branchName}"
+                echo "Test Echo!${params.branchName}"
                 sh 'mvn clean install -DskipTests'
             }
         }
