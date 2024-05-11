@@ -13,9 +13,9 @@ pipeline {
     }
     agent any
     stages {
-        node {
-            stage('Scm checkout') {
-                echo "Pulling changes from branch - ${params.branch}"
+        stage('Scm checkout') {
+            echo "Pulling changes from branch - ${params.branch}"
+            node {
                 git url: 'https://github.com/jermaks/SeleniumCucumberAutomation.git/', branch: "${params.branch}"
             }
         }
