@@ -3,19 +3,22 @@ package jenkins
 import groovy.transform.Field
 
 @Field
-def String branchName = 'master'
+def String branch = 'master'
 
 pipeline {
     parameters {
         choice(
-            name: 'branchName',
+            name: 'branch',
             choices: ['master', 'cucumber'])
     }
     agent any
     stages {
+        stage('Scm checkout') {
+            echo "Pulling changes from branch - ${params.branch}"
+            git url: 'https://github.com/jermaks/SeleniumCucumberAutomation.git/', branch: "${params.branch}"
+        }
         stage('Build') {
             steps {
-                echo "Test Echo!${params.branchName}"
                 sh 'mvn clean install -DskipTests'
             }
         }
