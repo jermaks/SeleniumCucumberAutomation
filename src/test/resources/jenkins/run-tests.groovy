@@ -14,11 +14,15 @@ pipeline {
 //    gitParameter branchFilter: 'origin/(.*)', defaultValue: 'master', name: 'BRANCH', type: 'PT_BRANCH'
     agent any
     stages {
-        stage('Test run') {
+        stage('Build') {
             steps {
 //                echo "Test Echo!${params.branchName}"
-                echo "Test Echo!"
-                sh 'mvn clean test'
+                sh 'mvn clean install -DskipTests'
+            }
+        }
+        stage('Test run') {
+            steps {
+                sh 'mvn test'
             }
         }
     }
