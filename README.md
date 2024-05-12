@@ -20,6 +20,9 @@ Done:
 3. Implement TestNg (JUnit temporary commented out due to conflict with TestNg).
 4. Added AssertJ and soft assertion usage.
 5. Implement REST Assured Rest tests.
+6. Jenkins: added branch choice.
+7. JSON-Server with employers.
+8. Rest-Assured with model GET and POST.
 
 
 ---------------------------------------------------------------
