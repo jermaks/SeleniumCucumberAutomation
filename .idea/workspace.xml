@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50126346-fabc-4265-a950-48069eeb9c05" name="Changes" comment="add rest assured test to SMOKE.xml">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/runners/RunCucumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/step_defs/RestAssuredStepDefs.java" afterDir="false" />
+    <list default="true" id="50126346-fabc-4265-a950-48069eeb9c05" name="Changes" comment="update jenkins file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/modules/practice/TestFirstRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/practice/TestFirstRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/modules/practice/TestFirstUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/practice/TestFirstUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/modules/practice/TestRestAssured.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/modules/practice/TestRestAssured.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/runners/CucumberRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/step_defs/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/step_definitions/user_story_1_steps/UserStory1Steps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/user_story_example/UserStory1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/FirstRestAssuredTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/jenkins/run-tests.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/jenkins/run-tests.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,6 +400,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="RELOAD_CONTEXT" value="false" />
     <MESSAGE value="webdriver location" />
     <MESSAGE value="pom" />
     <MESSAGE value="add changes" />
