@@ -1,19 +1,16 @@
 Rest Sandbox:
 https://rbeqres.in/
 
-Rest Client options:
+Rest Client:
 - REST Assured
-- fasterxml jackson
 
 Todo:
 1. Implement REST Assured Rest tests.
-2. Add Users model and method(s) to enable retrieval of the User List.
-3. Add POST requests and related test(s).
-4. Try to use chain of responsibility pattern.
-5. Implement auto build in Jenkins when Push on Git.
-6. Implement Test Analytics (Allure?).
-7. 
-
+2. Add POST requests and related test(s).
+3. Try to use chain of responsibility pattern.
+4. Implement auto build in Jenkins when Push on Git.
+5. Implement Test Analytics (Allure?).
+6. 
 
 Done:
 1. Implement Logger(SLF4J) to be able to see in Console and Jenkins Console Output:
@@ -22,7 +19,7 @@ Done:
 2. Add @BeforeClass for preconditions.
 3. Implement TestNg (JUnit temporary commented out due to conflict with TestNg).
 4. Added AssertJ and soft assertion usage.
-5. 
+5. Implement REST Assured Rest tests.
 
 
 
